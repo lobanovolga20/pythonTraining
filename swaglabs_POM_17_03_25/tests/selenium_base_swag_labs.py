@@ -24,6 +24,7 @@ class seleniumBaseSwagLabs():
     def selenium_end(self,driver):
         self.driver.close()
         print("test end")
+        print("cosmetic change")
 
 
 
