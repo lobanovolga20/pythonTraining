@@ -29,7 +29,7 @@ def test_incorrect_login_test():
     assert current_url == "https://www.saucedemo.com/", "current URl is not as expected"
 
     base.selenium_end(driver)
-time.sleep(5)
+time.sleep(3)
 def test_first_product():
         base = seleniumBaseSwagLabs()
         driver = base.selenium_init()
